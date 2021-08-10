@@ -1,2 +1,5 @@
-package org.dsc.afterdip;public interface Engine {
+package org.dsc.afterdip;
+
+public interface Engine {
+    public void run();
 }

@@ -1,4 +1,4 @@
-package org.dsc.dependencyinjection.setter;
+package org.dsc.dependencyinjection.field;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         // Initialize Spring context
         ClassPathXmlApplicationContext context =
-                new ClassPathXmlApplicationContext("setterInjectionConfig.xml");
+                new ClassPathXmlApplicationContext("fieldInjectionConfig.xml");
 
         // Get Spring Bean
         Car car = context.getBean("car", Car.class);

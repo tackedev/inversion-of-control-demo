@@ -1,4 +1,4 @@
-package org.dsc.dependencyinjection.constructor;
+package org.dsc.dependencyinjection.setter;
 
 import org.springframework.stereotype.Component;
 

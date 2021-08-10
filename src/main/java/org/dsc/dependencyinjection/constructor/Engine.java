@@ -1,4 +1,4 @@
-package org.dsc.afterdip;
+package org.dsc.dependencyinjection.constructor;
 
 public interface Engine {
     public void run();

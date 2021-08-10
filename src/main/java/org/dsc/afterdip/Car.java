@@ -1,7 +1,7 @@
-package org.dsc.beforedip;
+package org.dsc.afterdip;
 
 public class Car {
-    private final PetrolEngine engine;
+    private final Engine engine;
 
     public Car() {
         engine = new PetrolEngine();

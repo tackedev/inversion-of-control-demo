@@ -1,4 +1,4 @@
-package org.dsc.dependencyinjection.setter;
+package org.dsc.dependencyinjection.field;
 
 public interface Engine {
     public void run();
