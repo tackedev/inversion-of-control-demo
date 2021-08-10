@@ -7,5 +7,5 @@
                            http://www.springframework.org/schema/context
                            https://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:component-scan base-package="org.dsc"/>
+    <context:component-scan base-package="org.dsc.dependencyinjection.constructor"/>
 </beans>

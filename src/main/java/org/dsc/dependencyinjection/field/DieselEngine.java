@@ -1,4 +1,4 @@
-package org.dsc;
+package org.dsc.dependencyinjection.field;
 
 import org.springframework.stereotype.Component;
 

@@ -1,8 +1,5 @@
-package org.dsc;
+package org.dsc.afterdip;
 
-import org.springframework.stereotype.Component;
-
-@Component
 public class PetrolEngine implements Engine {
     @Override
     public void run() {
