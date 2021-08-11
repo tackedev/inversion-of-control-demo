@@ -1,5 +1,5 @@
 package org.dsc.dependencyinjection.field;
 
-public interface Engine {
-    public void run();
+public abstract class Engine {
+    public abstract void run();
 }

@@ -4,7 +4,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Main {
     public static void main(String[] args) {
-        // Initialize Spring context
+        // Load Metadata Configuration for Spring Container
         ClassPathXmlApplicationContext context =
                 new ClassPathXmlApplicationContext("constructorInjectionConfig.xml");
 
@@ -12,6 +12,7 @@ public class Main {
         Car car = context.getBean("car", Car.class);
         car.run();
 
+        // Close Spring context
         context.close();
     }
 }
